@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "es6",
+        "allowJs": true,
+        "target": "es6",
+        "removeComments": true,
+        "jsx": "react"
+    },
+    "include": [
+        "src/**/*",
+        "src/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+    // ,
+    // "plugins": [
+    //     {
+    //         "name": "esdoc-typescript-plugin", 
+    //         "option": {
+    //             "enable": true
+    //         }
+    //     }
+    // ]
+}
